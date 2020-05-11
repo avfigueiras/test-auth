@@ -45,8 +45,8 @@ const Login = ({history}) => {
                             <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light"> Password </label>
                             <MDBInput type="password" data-testid="password-field" validate  required containerClass="mb-0" value={password} onChange={e => { setPassword(e.target.value)}}/>
                         </div>
-                        <Collapse in={password && password.length < 4}>
-                          <Alert severity="info">The password must be 4 characters long or more.</Alert> 
+                        <Collapse in={password && password.length < 7}>
+                          <Alert severity="info">The password must be 6 characters long or more.</Alert> 
                         </Collapse>
                         <Collapse in={loginFail}>
                           <Alert severity="error">User or password incorrect</Alert> 

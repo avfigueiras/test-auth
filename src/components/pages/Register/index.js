@@ -45,8 +45,8 @@ return (
                       <MDBInput required icon="lock" type="password" validate data-testid="password-field"
                         value={password} onChange={e => {  setPassword(e.target.value);}} />
                   </div>
-                  <Collapse in={password && password.length < 4}>
-                    <Alert severity="info">The password must be 4 characters long or more.</Alert> 
+                  <Collapse in={password && password.length < 7}>
+                    <Alert severity="info">The password must be 6 characters long or more.</Alert> 
                   </Collapse>
                   <div className="text-center mb-4 mt-3">
                     <MDBBtn color="info" type="submit" className="btn-block " > Register</MDBBtn>
