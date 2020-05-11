@@ -10,7 +10,6 @@ const mockHistory = {
 const mockLogoutFunction = jest.fn(() => Promise.resolve());
 const mockSignInFunction = jest.fn();
 
-jest.spyOn(window, 'alert').mockImplementation(() => {});
 
 jest.mock('../../../../services/firebase/setUp', () => {
     return {

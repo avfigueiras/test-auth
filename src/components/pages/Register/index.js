@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {withRouter} from 'react-router';
 import app from '../../../services/firebase/setUp';
+import Collapse from '@material-ui/core/Collapse';
+import Alert from '@material-ui/lab/Alert';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput,MDBCardBody,MDBCard} from 'mdbreact';
 
 const Register = ({history}) => {
@@ -34,15 +36,18 @@ return (
                   </MDBRow>
                   <div className="grey-text">
                       <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light">Name </label>
-                      <MDBInput  icon="user" type="text" validate error="wrong" data-testid="name-field"
+                      <MDBInput  required icon="user" type="text" validate error="wrong" data-testid="name-field"
                         success="right" autoFocus value={name} onChange={e => {setName(e.target.value);}} />
                       <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light"> Email </label>
-                      <MDBInput  icon="envelope" type="email" validate error="wrong" data-testid="email-field"
+                      <MDBInput  required icon="envelope" type="email" validate error="wrong" data-testid="email-field"
                         success="right" value={email} onChange={e => {setEmail(e.target.value);}}/>
                       <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light"> Password </label>
-                      <MDBInput  icon="lock" type="password" validate data-testid="password-field"
+                      <MDBInput required icon="lock" type="password" validate data-testid="password-field"
                         value={password} onChange={e => {  setPassword(e.target.value);}} />
                   </div>
+                  <Collapse in={password && password.length < 4}>
+                    <Alert severity="info">The password must be 4 characters long or more.</Alert> 
+                  </Collapse>
                   <div className="text-center mb-4 mt-3">
                     <MDBBtn color="info" type="submit" className="btn-block " > Register</MDBBtn>
                 </div>

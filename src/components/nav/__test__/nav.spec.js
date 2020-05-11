@@ -20,4 +20,4 @@ describe("Nav test", () =>{
         expect(navComponent).toMatchSnapshot();
     })
 
-})
+})  

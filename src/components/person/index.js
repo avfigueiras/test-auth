@@ -1,5 +1,4 @@
 import React, {useState, useEffect, Fragment} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -13,74 +12,15 @@ import PhoneIphoneRoundedIcon from '@material-ui/icons/PhoneIphoneRounded';
 import PhoneIcon from '@material-ui/icons/Phone';
 import WcIcon from '@material-ui/icons/Wc';
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
+import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import DescriptionIcon from '@material-ui/icons/Description';
 import Divider from '@material-ui/core/Divider';
 import axios from 'axios';
 import Pagination from '@material-ui/lab/Pagination';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import useStyles from './style.js';
 
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '25%',
-    height: '100%',
-  },
-  rootMobile: {
-    width: '100%',
-    height: '100%',
-  },
-  panel:{
-      width:'100%'
-  },
-  image:{
-    marginRight:'10px',
-  },
-  detail:{
-      display:'flex',
-      flexDirection:'column',
-      alignItems:'flex-start',
-      justifyContent:'center',
-      borderRadius:'borderRadius',
-      padding:'20px',
-      cursor: 'pointer',
-  },
-  context:{
-     marginBottom:'10px',
-     display:'flex',
-     alignItems:'center',
-     width:'100%'
-  },
-  icon:{
-      marginRight:'10px',
-      color:'rgb(41, 163, 163)'
-  },
-  header:{
-      display:'flex',
-      alignItems:'center',
-      
-  },
-  name:{
-      width:'100%',
-      marginLeft:'5px',
-      display:'flex',
-      AlignSelf:'center',
-      padding:'5px',
-      fontWeight:'700',
-  },
-  pagesNone: {
-    '& > *': {
-      marginTop: theme.spacing(2),
-    },
-    display: 'none',
-    width:'none'
-  },
-  pages: {
-    '& > *': {
-      marginTop: theme.spacing(1),
-      marginBottom: theme.spacing(1)
-    }
-  },
-}));
 
 export default function ControlledExpansionPanels() {
   const classes = useStyles();
@@ -115,31 +55,38 @@ export default function ControlledExpansionPanels() {
                 <span className={classes.name}>{colaborate.name.first} {colaborate.name.last}</span>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
-                <div>
+                <div className={classes.general}>
                     <h5><DescriptionIcon className={classes.icon} />Description:</h5>
                     <Divider variant="middle" />
                     <div  className={classes.detail}>
-                        <Typography className={classes.context}>
-                            <ContactMailIcon className={classes.icon} /> {colaborate.email}
-                        </Typography >
-                        <Typography className={classes.context}>
-                            <HomeIcon className={classes.icon}/> {colaborate.location.street.name} {colaborate.location.street.number}, {colaborate.location.city}, {colaborate.location.country}
-                        </Typography>
-                        <Typography className={classes.context}>
-                            <WcIcon className={classes.icon}/> {colaborate.gender}
-                        </Typography>
-                        <Typography className={classes.context}>
-                            <PhoneIphoneRoundedIcon className={classes.icon}/> {colaborate.cell}
-                        </Typography>
-                        <Typography className={classes.context}>
-                            <PhoneIcon className={classes.icon}/> {colaborate.phone}
-                        </Typography>
-                        <Typography className={classes.context}>
-                        <FavoriteIcon className={classes.icon}/> {colaborate.dob.age} years old
-                        </Typography>
-                        <Typography className={classes.context}>
-                        <AccountCircleRoundedIcon className={classes.icon}/> {colaborate.registered.age} years registered
-                        </Typography>
+                        <div className={classes.background}>
+                            <Typography className={classes.context}>
+                                <ContactMailIcon className={classes.icon} /> {colaborate.email}
+                            </Typography >
+                            <Typography className={classes.context}>
+                                <HomeIcon className={classes.icon}/> {colaborate.location.street.name} {colaborate.location.street.number}, {colaborate.location.city}, {colaborate.location.country}
+                            </Typography>
+                            <Typography className={classes.context}>
+                                <WcIcon className={classes.icon}/> {colaborate.gender}
+                            </Typography>
+                            <Typography className={classes.context}>
+                                <AccountCircleRoundedIcon className={classes.icon}/> {colaborate.login.username}
+                            </Typography>
+                        </div>
+                        <div>
+                            <Typography className={classes.context}>
+                                <PhoneIphoneRoundedIcon className={classes.icon}/> {colaborate.cell}
+                            </Typography>
+                            <Typography className={classes.context}>
+                                <PhoneIcon className={classes.icon}/> {colaborate.phone}
+                            </Typography>
+                            <Typography className={classes.context}>
+                            <FavoriteIcon className={classes.icon}/> {colaborate.dob.age} years old
+                            </Typography>
+                            <Typography className={classes.context}>
+                            <SupervisorAccountIcon className={classes.icon}/> {colaborate.registered.age} years registered
+                            </Typography>
+                        </div>
                     </div>
                 </div>
             </ExpansionPanelDetails>

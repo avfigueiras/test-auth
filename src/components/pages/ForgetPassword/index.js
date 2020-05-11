@@ -1,18 +1,23 @@
 import React,{useState}  from 'react';
 import {withRouter} from 'react-router-dom';
 import app from '../../../services/firebase/setUp';
+import Collapse from '@material-ui/core/Collapse';
+import Alert from '@material-ui/lab/Alert';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput,MDBCardBody,MDBCard} from 'mdbreact';
 
 const ForgetPassword = ({history}) => {
     const [email, setEmail] = useState('');
+    const [reset, setReset] = useState(false);
 
     const handleSubmit = async e => {
         e.preventDefault();
         try {
             await app.auth().sendPasswordResetEmail(email)
+            setReset(false)
             history.push("/login");
         } catch (error) {
-            alert(error);
+            setReset(true)
+            console.log(error);
         }
     };
 
@@ -28,8 +33,11 @@ const ForgetPassword = ({history}) => {
                         </MDBRow>
                         <div className="grey-text">
                             <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light"> Email </label>
-                            <MDBInput className="input-field" data-testid="email-field" type="text" validate value={email} onChange={e => {setEmail(e.target.value)}} />
+                            <MDBInput className="input-field" data-testid="email-field" type="email" validate value={email} onChange={e => {setEmail(e.target.value)}} />
                         </div>
+                        <Collapse in={reset}>
+                          <Alert severity="error">Email incorrect!</Alert> 
+                        </Collapse>
                         <div className="text-center mb-4 mt-3">
                             <MDBBtn color="info" type="submit" className="btn-block " > Reset password</MDBBtn>
                         </div>

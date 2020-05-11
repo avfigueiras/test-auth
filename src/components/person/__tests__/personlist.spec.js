@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, act} from '@testing-library/react';
-import Demo from '../demo';
+import ListPerson from '../index';
 import axios from 'axios';
 
 jest.mock('axios');
@@ -8,19 +8,19 @@ jest.mock('axios');
 // Clean all promises
 const flushPromises = () => new Promise(setImmediate);
 
-describe("Demo tests", () => {
-    test("demo test 1 with empty values", async () => {
+describe("ListPerson tests", () => {
+    test("ListPerson  test 1 with empty values", async () => {
         axios.get.mockImplementationOnce(() => Promise.resolve({data: {results: []}}));
 
-        const demoComponent = render(<Demo/>);
+        const ListPersonComponent = render(<ListPerson/>);
 
         await act(() => flushPromises());
 
-        expect(demoComponent).toMatchSnapshot();
+        expect(ListPersonComponent).toMatchSnapshot();
         expect(axios.get).toHaveBeenNthCalledWith(1, 'https://randomuser.me/api/?results=100');
     });
 
-    test("demo test 1 with some values", async () => {
+    test("ListPerson test 1 with some values", async () => {
         const exampleUser = {
             "gender": "female",
             "name": {
@@ -80,11 +80,11 @@ describe("Demo tests", () => {
 
         axios.get.mockImplementationOnce(() => Promise.resolve({data: {results: [exampleUser]}}));
 
-        const demoComponent = render(<Demo/>);
+        const ListPersonComponent = render(<ListPerson/>);
 
         await act(() => flushPromises());
 
-        expect(demoComponent).toMatchSnapshot();
+        expect(ListPersonComponent).toMatchSnapshot();
         expect(axios.get).toHaveBeenNthCalledWith(1, 'https://randomuser.me/api/?results=100');
     });
 });

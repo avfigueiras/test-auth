@@ -1,6 +1,6 @@
 import React from 'react';
 import AuthContext from '../../../context/context';
-import Demo from '../../person/demo';
+import ListPerson from '../../person/index';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
                     alignItems: 'center',
                     marginTop: '10px'
                 }}>
-                    <Demo/>
+                    <ListPerson/>
                 </div>
             }
         </AuthContext.Consumer>
