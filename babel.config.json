@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+           "browsers":[
+             "last 2 versions"
+           ]
+        },
+        "useBuiltIns": "entry",
+        "corejs":3
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
