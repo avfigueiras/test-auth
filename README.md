@@ -39,31 +39,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Documemtation project login
 
 
-You can learn more information in 
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+You can learn more information in (https://docs.google.com/document/d/1kwA38zO3bPdm5dR3IsMdw3yqopWecKwYpcmxINgQTdk/edit?usp=sharing)
 
 ### Deployment in netlify
 
-This project is running in https://musing-sinoussi-2b41cc.netlify.app/
+This project is running in https://5eb9f5df9c2fac0007f2d7d4--musing-sinoussi-2b41cc.netlify.app/
+
