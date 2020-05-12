@@ -14,9 +14,6 @@ const useStyles = makeStyles((theme) => ({
         width:'100%',
         padding: '5px',
         borderRigth: '1px solid white',
-        '&:hover': {
-          zoom: '120%',
-      },
     },
   panelMobile:{
       width:'100%'
@@ -52,6 +49,9 @@ const useStyles = makeStyles((theme) => ({
     header:{
         display:'flex',
         alignItems:'center',
+        '&:hover': {
+          zoom: '120%',
+      },
     },
     name:{
         width:'100%',
