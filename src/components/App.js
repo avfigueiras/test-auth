@@ -4,12 +4,9 @@ import Routes from '../components/routes/index';
 
 const App = () => {
     return (
-        <div>
             <AuthProvider>
                 <Routes/>
             </AuthProvider>
-        </div>
-
     )
 }
 export default App;

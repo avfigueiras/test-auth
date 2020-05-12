@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
           zoom: '120%',
       },
     },
+  panelMobile:{
+      width:'100%'
+  },
     image:{
       marginRight:'10px',
     },
@@ -28,6 +31,14 @@ const useStyles = makeStyles((theme) => ({
         justifyContent:'space-around',
         padding:'20px'
     },
+    detailMobile:{
+      display:'flex',
+      flexDirection:'column',
+      alignItems:'flex-start',
+      justifyContent:'center',
+      borderRadius:'borderRadius',
+      padding:'0px',
+  },
     context:{
        marginBottom:'10px',
        display:'flex',
@@ -41,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
     header:{
         display:'flex',
         alignItems:'center',
-        
     },
     name:{
         width:'100%',
@@ -70,9 +80,11 @@ const useStyles = makeStyles((theme) => ({
       flexDirection:'column',
       margin:'auto'
     },
-    background:{
-     backgroud:'blue'
-    }
+    generalMobile:{
+      width:'100%',
+      display:'flex',
+      flexDirection:'column'
+    },
   }));
 
   export default useStyles;

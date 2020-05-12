@@ -48,17 +48,17 @@ export default function ControlledExpansionPanels() {
     <Fragment>
     {colaborates.map((colaborate, i) => (
     <div key={i} className={matches ? classes.root : classes.rootMobile}   >
-        <div className={classes.panel}>
+        <div className={matches ? classes.panel : classes.panelMobile}>
         <ExpansionPanel expanded={expanded === `panel${i+1}`} onChange={handleChange(`panel${i+1}`)} className={classes.panel}>
             <ExpansionPanelSummary  className={classes.header} expandIcon={<ExpandMoreIcon />}>
                 <Avatar src={colaborate.picture.medium} className={classes.image} height="50px" width="50px" alt="avatar"/><br/>
                 <span className={classes.name}>{colaborate.name.first} {colaborate.name.last}</span>
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
-                <div className={classes.general}>
+                <div className={matches ? classes.general : classes.generalMobile}>
                     <h5><DescriptionIcon className={classes.icon} />Description:</h5>
                     <Divider variant="middle" />
-                    <div  className={classes.detail}>
+                    <div  className={matches ? classes.detail : classes.detailMobile}>
                         <div className={classes.background}>
                             <Typography className={classes.context}>
                                 <ContactMailIcon className={classes.icon} /> {colaborate.email}
