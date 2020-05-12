@@ -29,7 +29,7 @@ const ForgetPassword = ({history}) => {
                 <MDBCardBody >
                   <form onSubmit={handleSubmit}>
                         <MDBRow className="d-flex justify-content-center">
-                            <h3 className="deep-grey-text pb-1 mx-5">Forget password</h3>
+                            <h3 className="deep-grey-text pb-1 ">Forget Password</h3>
                         </MDBRow>
                         <div className="grey-text">
                             <label htmlFor="defaultFormCardNameEx" className="grey-text font-weight-light"> Email </label>
