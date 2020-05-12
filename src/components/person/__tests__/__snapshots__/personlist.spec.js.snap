@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="makeStyles-pagesNone-10"
+        class="makeStyles-pagesNone-12"
       >
         <nav
           aria-label="pagination navigation"
@@ -62,7 +62,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="makeStyles-pagesNone-10"
+      class="makeStyles-pagesNone-12"
     >
       <nav
         aria-label="pagination navigation"
@@ -175,18 +175,18 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="makeStyles-rootMobile-44"
+        class="makeStyles-rootMobile-46"
       >
         <div
-          class="makeStyles-panel-45"
+          class="makeStyles-panelMobile-48"
         >
           <div
-            class="MuiPaper-root MuiExpansionPanel-root makeStyles-panel-45 MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+            class="MuiPaper-root MuiExpansionPanel-root makeStyles-panel-47 MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
           >
             <div
               aria-disabled="false"
               aria-expanded="false"
-              class="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-header-50"
+              class="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-header-54"
               role="button"
               tabindex="0"
             >
@@ -194,7 +194,7 @@ Object {
                 class="MuiExpansionPanelSummary-content"
               >
                 <div
-                  class="MuiAvatar-root MuiAvatar-circle makeStyles-image-46"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-image-49"
                   height="50px"
                   width="50px"
                 >
@@ -206,7 +206,7 @@ Object {
                 </div>
                 <br />
                 <span
-                  class="makeStyles-name-51"
+                  class="makeStyles-name-55"
                 >
                   Manon
                    
@@ -254,12 +254,12 @@ Object {
                       class="MuiExpansionPanelDetails-root"
                     >
                       <div
-                        class="makeStyles-general-54"
+                        class="makeStyles-generalMobile-59"
                       >
                         <h5>
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root makeStyles-icon-49"
+                            class="MuiSvgIcon-root makeStyles-icon-53"
                             focusable="false"
                             viewBox="0 0 24 24"
                           >
@@ -273,17 +273,15 @@ Object {
                           class="MuiDivider-root MuiDivider-middle"
                         />
                         <div
-                          class="makeStyles-detail-47"
+                          class="makeStyles-detailMobile-51"
                         >
-                          <div
-                            class="makeStyles-background-55"
-                          >
+                          <div>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -295,11 +293,11 @@ Object {
                               manon.mercier@example.com
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -317,11 +315,11 @@ Object {
                               France
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -333,11 +331,11 @@ Object {
                               female
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -351,11 +349,11 @@ Object {
                           </div>
                           <div>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -367,11 +365,11 @@ Object {
                               06-11-87-25-86
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -383,11 +381,11 @@ Object {
                               05-47-47-92-64
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -400,11 +398,11 @@ Object {
                                years old
                             </p>
                             <p
-                              class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                              class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root makeStyles-icon-49"
+                                class="MuiSvgIcon-root makeStyles-icon-53"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -428,7 +426,7 @@ Object {
         </div>
       </div>
       <div
-        class="makeStyles-pages-53"
+        class="makeStyles-pages-57"
       >
         <nav
           aria-label="pagination navigation"
@@ -484,18 +482,18 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="makeStyles-rootMobile-44"
+      class="makeStyles-rootMobile-46"
     >
       <div
-        class="makeStyles-panel-45"
+        class="makeStyles-panelMobile-48"
       >
         <div
-          class="MuiPaper-root MuiExpansionPanel-root makeStyles-panel-45 MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+          class="MuiPaper-root MuiExpansionPanel-root makeStyles-panel-47 MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
         >
           <div
             aria-disabled="false"
             aria-expanded="false"
-            class="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-header-50"
+            class="MuiButtonBase-root MuiExpansionPanelSummary-root makeStyles-header-54"
             role="button"
             tabindex="0"
           >
@@ -503,7 +501,7 @@ Object {
               class="MuiExpansionPanelSummary-content"
             >
               <div
-                class="MuiAvatar-root MuiAvatar-circle makeStyles-image-46"
+                class="MuiAvatar-root MuiAvatar-circle makeStyles-image-49"
                 height="50px"
                 width="50px"
               >
@@ -515,7 +513,7 @@ Object {
               </div>
               <br />
               <span
-                class="makeStyles-name-51"
+                class="makeStyles-name-55"
               >
                 Manon
                  
@@ -563,12 +561,12 @@ Object {
                     class="MuiExpansionPanelDetails-root"
                   >
                     <div
-                      class="makeStyles-general-54"
+                      class="makeStyles-generalMobile-59"
                     >
                       <h5>
                         <svg
                           aria-hidden="true"
-                          class="MuiSvgIcon-root makeStyles-icon-49"
+                          class="MuiSvgIcon-root makeStyles-icon-53"
                           focusable="false"
                           viewBox="0 0 24 24"
                         >
@@ -582,17 +580,15 @@ Object {
                         class="MuiDivider-root MuiDivider-middle"
                       />
                       <div
-                        class="makeStyles-detail-47"
+                        class="makeStyles-detailMobile-51"
                       >
-                        <div
-                          class="makeStyles-background-55"
-                        >
+                        <div>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -604,11 +600,11 @@ Object {
                             manon.mercier@example.com
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -626,11 +622,11 @@ Object {
                             France
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -642,11 +638,11 @@ Object {
                             female
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -660,11 +656,11 @@ Object {
                         </div>
                         <div>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -676,11 +672,11 @@ Object {
                             06-11-87-25-86
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -692,11 +688,11 @@ Object {
                             05-47-47-92-64
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -709,11 +705,11 @@ Object {
                              years old
                           </p>
                           <p
-                            class="MuiTypography-root makeStyles-context-48 MuiTypography-body1"
+                            class="MuiTypography-root makeStyles-context-52 MuiTypography-body1"
                           >
                             <svg
                               aria-hidden="true"
-                              class="MuiSvgIcon-root makeStyles-icon-49"
+                              class="MuiSvgIcon-root makeStyles-icon-53"
                               focusable="false"
                               viewBox="0 0 24 24"
                             >
@@ -737,7 +733,7 @@ Object {
       </div>
     </div>
     <div
-      class="makeStyles-pages-53"
+      class="makeStyles-pages-57"
     >
       <nav
         aria-label="pagination navigation"

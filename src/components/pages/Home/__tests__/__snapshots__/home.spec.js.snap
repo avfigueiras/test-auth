@@ -71,7 +71,7 @@ Object {
         style="display: flex; flex-direction: column; align-items: center; margin-top: 10px;"
       >
         <div
-          class="makeStyles-pagesNone-10"
+          class="makeStyles-pagesNone-12"
         >
           <nav
             aria-label="pagination navigation"
@@ -132,7 +132,7 @@ Object {
       style="display: flex; flex-direction: column; align-items: center; margin-top: 10px;"
     >
       <div
-        class="makeStyles-pagesNone-10"
+        class="makeStyles-pagesNone-12"
       >
         <nav
           aria-label="pagination navigation"
